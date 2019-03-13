@@ -1,0 +1,61 @@
+@font:"AvenirNextCyr";
+
+.font {
+  font-family: @font,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+.fontLight {
+  font-family: @font,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+.fontBold {
+  font-family: @font,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+.fontMedium {
+  font-family: @font,sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
+@maxWidth480:~"only screen and (max-width: 480px)";
+@maxWidth570:~"only screen and (max-width: 570px)";
+@maxWidth1199:~"only screen and (max-width: 1199px)";
+
+@fontAll:#e8eaeb;
+@blockBgForm:#26313a;
+@blockBgFormHeader:linear-gradient(to right, #12c49c, #0db475);
+@borderBottomInput:#6c7983;
+@fontColorInput:#6c7983;
+@fontColorInputFocus:#e8eaeb;
+@bgBtn:#6c7983;
+@colorBtn:#ffffff;
+.fontPlaceholder {
+  &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: @fontColorInputFocus;
+  }
+  &::-moz-placeholder { /* Firefox 19+ */
+    color: @fontColorInputFocus;
+  }
+  &:-ms-input-placeholder { /* IE 10+ */
+    color: @fontColorInputFocus;
+  }
+  &:-moz-placeholder { /* Firefox 18- */
+    color: @fontColorInputFocus;
+  }
+}

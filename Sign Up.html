@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="app/css/main.css">
+    <title>Welcome to B2BX</title>
+</head>
+<body>
+
+<div class="container">
+    <div class="block-header">
+
+        <div class="logo">
+            <img src="app/img/logo.svg" alt="">
+        </div>
+
+        <h1 class="block-header__logo">Welcome to <span>B2BX</span></h1>
+
+        <div id="lang-select" class="customselect">
+            <button class="title">EN</button>
+            <ul>
+                <li data-value="EN">EN</li>
+                <li data-value="RU">RU</li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="wrapper-form">
+        <div class="block-from">
+            <div class="block-from__header">
+                Already a member? <span>Sign up now!</span>
+            </div>
+            <h2 class="block-from__head">Sign Up</h2>
+            <p class="block-from__label block-from__label_up">to open your account</p>
+            <input type="email" class="input-text" placeholder="Your e-mail">
+            <div class="block-from__block-pass">
+                <input type="password" id="input-pass" class="input-text input-text_mb1" placeholder="Your password">
+                <div class="block-from__pass">
+                    <input type="checkbox" id="checkPass">
+                    <label class="label-check" for="checkPass"><i class="far fa-eye-slash"></i></label>
+                </div>
+            </div>
+            <p class="block-from__label block-from__label_in">
+                Password. Min 6 symbols, at least 1 upper-case,
+                at least 1 non-letter
+            </p>
+            <div class="block-from__block-check block-from__block-check_mb">
+                <label class="checkbox">I confirm that I am 18 years old or over
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+            <div class="block-from__block-check block-from__block-check_mb35">
+                <label class="checkbox">I agree to <b>Terms of use</b>
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+            <button class="block-from__btn block-from__btn_mb0">Continue</button>
+        </div>
+    </div>
+</div>
+
+<script src="app/js/select.js"></script>
+<script src="app/js/index.js"></script>
+</body>
+</html>
